@@ -14,12 +14,18 @@ body {
 }
 
 p {
-	background-color: #FFF;
-	margin: 0 auto;
-	width: 80%;
+	padding: 18px;
 }
 
-.name {
+.content-box {
+	background-color: #FFF;
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: 2px 2px 6px #555;
+}
+
+.company-name {
 	font-family: Boogaloo, sans-serif;
 	font-size: 36px;
 	color: #116189;
@@ -27,12 +33,12 @@ p {
 
 .left {
 	float: left;
-	margin-right: 20px;
+	margin: 20px;
 }
 
 .right {
 	float: right;
-	margin-right: 20px;
+	margin: 20px;
 }
 
 .motto {
@@ -42,8 +48,6 @@ p {
 
 nav ul {
 	background-color: #D74710;
-	width: 80%;
-	margin: 0 auto;
 	border-radius: 5px;	
 }
 
@@ -63,6 +67,12 @@ nav a:visited {
 	text-decoration: none;
 }
 
-nav a: hover{
+nav a:hover{
 	background-color: #FF9D45;
+}
+
+.footer {
+	border-top:thin solid #CCC;
+	font-style: italic;
+	font-size: 80%;
 }
