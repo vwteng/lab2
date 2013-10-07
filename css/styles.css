@@ -91,4 +91,18 @@ nav a:hover {
 
 h2 {
 	color: #116189;
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 10px;
 }
+
+.icon {
+	float: left;
+	padding: 5px;
+}
+
+.name {
+	color: #116190;
+	font-weight: bold;
+}
+
