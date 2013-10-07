@@ -93,15 +93,14 @@ h2 {
 	color: #116189;
 	font-weight: bold;
 	font-size: 28px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .icon {
 	float: left;
-	padding: 5px;
 }
 
-.name {
+h3 {
 	color: #116190;
 	font-weight: bold;
 }
