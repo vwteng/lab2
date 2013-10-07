@@ -14,7 +14,7 @@ body {
 }
 
 p {
-	padding: 18px;
+	margin-top: 18px;
 }
 
 .content-box {
@@ -33,12 +33,12 @@ p {
 
 .left {
 	float: left;
-	margin: 20px;
+	margin-right: 10px;
 }
 
 .right {
 	float: right;
-	margin: 20px;
+	margin-left: 10px;
 }
 
 .motto {
@@ -48,7 +48,9 @@ p {
 
 nav ul {
 	background-color: #D74710;
-	border-radius: 5px;	
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 nav li {
@@ -67,12 +69,26 @@ nav a:visited {
 	text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
 	background-color: #FF9D45;
+	border-radius: 5px;
 }
 
 .footer {
-	border-top:thin solid #CCC;
+	margin-top: 40px;
+	border-top: thin solid #CCC;
 	font-style: italic;
 	font-size: 80%;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+H2 {
+	color: #116189;
 }
